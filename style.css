@@ -24,7 +24,11 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
     margin: 50px 0px;
     font-size: 1.8rem;
-    color: darkblue;
+    color:#fec316;
+    padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #575958;
+  border-radius: 10px;
 }
 img {
     width: 100%;
@@ -39,7 +43,7 @@ img {
     display: none;
 }
 header{
-    background-color: #1e1e1e;
+    background-color: #1f2220;
     height: auto;
     width: 100%;
 }
@@ -50,11 +54,11 @@ nav{
 nav a{
     padding: 20px;
     text-decoration: none;
-    color: white;
-    
+    color: #fec316;
+    font-family: 'Times New Roman', Times, serif;
 }
 nav a:hover{
-    background: dark blue;
+    background: whitesmoke;
 }
 
 
@@ -62,12 +66,13 @@ nav a:hover{
 @media (max-width: 850px){
     #leftMenu #botonX  {
         display: block;
-        font-size: 30px;
+        font-size: 25px;
 
     }
     #barras {
         display: block;
         font-size: 30px;
+        color: #1f2220;
     }
     .menu i{
         margin: 10px;
@@ -79,7 +84,7 @@ nav a:hover{
         z-index: 1;
         top: 0;
         left: 0;
-        background: black;
+        background: #1f2220;
         overflow-x: hidden;
         transition: .5s;
     }
@@ -94,7 +99,7 @@ nav a:hover{
         padding: 8px 8px 8px 15px;
         text-decoration: none;
         font-size: 15px;
-        color: white;
+        color: #fec316;
         display: block;
         transition: .5s;
     }
