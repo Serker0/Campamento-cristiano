@@ -81,7 +81,7 @@ nav a:hover{
         position: fixed;
         width: 0;
         z-index: 1;
-        top: 50;
+        top: 0;
         left: 0;
         background: #1f2220;
         overflow-x: hidden;
