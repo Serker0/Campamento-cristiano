@@ -71,10 +71,14 @@ nav a:hover{
     #barras {
         display: block;
         font-size: 30px;
-        color: #1f2220;
+        color: #fec316;
     }
     .menu i{
         margin: 10px;
+    }
+    #per{
+        background: #575958;
+        
     }
     #leftMenu{
         height: 100vh;
@@ -94,6 +98,7 @@ nav a:hover{
     .leftNav a{
         margin-bottom: 1px;
     }
+
     #leftMenu a{
         padding: 8px 8px 8px 15px;
         text-decoration: none;
@@ -101,6 +106,7 @@ nav a:hover{
         color: #fec316;
         display: block;
         transition: .5s;
+       
     }
 }
 
