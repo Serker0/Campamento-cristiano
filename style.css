@@ -106,13 +106,12 @@ nav a:hover{
         color: #fec316;
         display: block;
         transition: .5s;
-       
     }
+
+    .pdfview{
+        margin: center;
+        width: 850px;
+        height: 100vh;
+    }    
+    
 }
-
-
-
-
-
-
-
