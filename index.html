@@ -37,7 +37,16 @@
 
         </body>
             
-        
+        <script>
+    // Reemplaza esto por tu identificador único si quieres
+    const url = 'https://api.countapi.xyz/hit/https://serker0.github.io/Campamento-cristiano/visitas';
+
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('contador').innerText = data.value;
+      });
+  </script>
 </body>
 </head>
 </html>
